@@ -22,7 +22,7 @@ EditorBuildSettings:
     guid: a091056bbd407bf4c9cc35043d8c7fe6
   - enabled: 1
     path: Assets/Scenes/Level2.unity
-    guid: cb62d2f92b7173e4daadf25ccae00e69
+    guid: ea5d31597607c63439a04603111e55e7
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: d74eae60b91ab7b449717cd6a8408633
@@ -32,7 +32,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lose.unity
     guid: 1e2637a0276b0d54ca4131f2862d71c3
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}

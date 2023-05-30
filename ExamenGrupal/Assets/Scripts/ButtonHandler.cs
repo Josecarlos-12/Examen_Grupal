@@ -11,8 +11,6 @@ public class ButtonHandler : MonoBehaviour
     public delegate void SceneChangeDelegate(string sceneName);
     public event SceneChangeDelegate OnSceneChange;
 
-    public int credits;
-
     private void Awake()
     {
         if (Instance == null)
@@ -24,8 +22,6 @@ public class ButtonHandler : MonoBehaviour
 
     public void GoToCredits()
     {
-        
-
         SceneManager.LoadScene("Credits");
         OnSceneChange?.Invoke("Credits");
     }
