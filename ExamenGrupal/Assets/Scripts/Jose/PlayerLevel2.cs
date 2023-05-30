@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerLevel2 : MonoBehaviour
 {
@@ -64,6 +65,10 @@ public class PlayerLevel2 : MonoBehaviour
             ChangeLife(-other.gameObject.GetComponent<DamagePlayer>().GetDamagePlayer());
             Destroy(other.gameObject);
             print(life);
+        }
+        else if (other.gameObject.CompareTag("WinCollider")) 
+        {
+            SceneManager.LoadScene("Win"); 
         }
     }
 }
